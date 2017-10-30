@@ -1539,7 +1539,20 @@ mutation {
 
 ## Sample application [⤴](#table-of-contents)
 
-The Buy SDK includes a comprehensive sample application that covers the most common use cases of the SDK. It's built on best practices and our recommended `ViewModel` architecture. You can use it as a template, a starting point, or a place to cherrypick components as needed. Check out the [Storefront readme](/Sample%20Apps/Storefront/) for more details.
+The Buy SDK includes a comprehensive sample application that covers the most common use cases of the SDK. It's built on best practices and our recommended `ViewModel` architecture. You can use it as a template, a starting point, or a place to cherrypick components as needed. ~~Check out the [Storefront readme](/Sample%20Apps/Storefront/) for more details.~~
+
+Correct instructions for building the sample application:
+```
+git clone https://github.com/Shopify/mobile-buy-sdk-ios.git
+cd ~/mobile-buy-sdk-ios
+git submodule init
+git submodule update
+open Sample\ Apps/Storefront/Storefront.xcodeproj
+Build and Run
+
+Ignore Readme in Sample Apps folder -- Thanks Ivan 
+```
+###### Instructions taken from [this](https://ecommerce.shopify.com/c/shopify-apis-and-technology/t/unable-to-compile-the-sample-ios-app-454145) forum post.
 
 ## Contributions [⤴](#table-of-contents)
 
